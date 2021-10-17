@@ -1,0 +1,15 @@
+from .. import loader, utils
+from asyncio import sleep
+
+class AttamppMod(loader.Module):
+    """Attampp"""
+    strings = {'name': Attampp'}
+
+    async def watcher(self, message):
+        try:
+            if message.chat_id in {-435123440}:
+                 if message.sender_id in {692657524}:
+                     if "Завершить работу" in message.message:
+                         await sleep (28980)
+                         await message.respond('Завершить работу')                    
+        except: pass
