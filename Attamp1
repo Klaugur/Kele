@@ -2,7 +2,7 @@ from .. import loader, utils
 from asyncio import sleep
 
 class AttamppMod(loader.Module):
-    """Attampp"""
+    """Attampp."""
     strings = {'name': 'Attampp'}
 
     async def watcher(self, message):
