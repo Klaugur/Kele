@@ -3,7 +3,7 @@ from asyncio import sleep
 
 class AttamppMod(loader.Module):
     """Attampp"""
-    strings = {'name': Attampp'}
+    strings = {'name': 'Attampp'}
 
     async def watcher(self, message):
         try:
